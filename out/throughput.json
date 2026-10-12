@@ -124,5 +124,68 @@
     "mbps_spread": 16.51160077584202,
     "mbps_spread_fraction": 0.676432812934017,
     "handshake_ms_median": 56.010000000000005
+  },
+  {
+    "label": "capture-time network",
+    "when": "2026-10-12T10:07:14+09:00",
+    "target": "https://speed.cloudflare.com/__down?bytes=5000000",
+    "runs": [
+      {
+        "dns_s": 0.020514,
+        "connect_s": 0.007821999999999999,
+        "ttfb_s": 0.063542,
+        "total_s": 0.68679,
+        "bytes": 5000000,
+        "mbps": 58.24196624878056,
+        "http_status": 200,
+        "remote_ip": "172.66.0.218"
+      },
+      {
+        "dns_s": 0.019473,
+        "connect_s": 0.012890000000000002,
+        "ttfb_s": 0.06999899999999999,
+        "total_s": 0.622445,
+        "bytes": 5000000,
+        "mbps": 64.26270594189045,
+        "http_status": 200,
+        "remote_ip": "172.66.0.218"
+      },
+      {
+        "dns_s": 0.010547,
+        "connect_s": 0.010304,
+        "ttfb_s": 0.05099499999999999,
+        "total_s": 0.571625,
+        "bytes": 5000000,
+        "mbps": 69.97594576864202,
+        "http_status": 200,
+        "remote_ip": "172.66.0.218"
+      },
+      {
+        "dns_s": 0.017378,
+        "connect_s": 0.012101999999999998,
+        "ttfb_s": 0.065889,
+        "total_s": 0.591537,
+        "bytes": 5000000,
+        "mbps": 67.62045315846684,
+        "http_status": 200,
+        "remote_ip": "172.66.0.218"
+      },
+      {
+        "dns_s": 0.017326,
+        "connect_s": 0.04774,
+        "ttfb_s": 0.105453,
+        "total_s": 1.15087,
+        "bytes": 5000000,
+        "mbps": 34.75631478794303,
+        "http_status": 200,
+        "remote_ip": "172.66.0.218"
+      }
+    ],
+    "mbps_median": 64.26270594189045,
+    "mbps_min": 34.75631478794303,
+    "mbps_max": 69.97594576864202,
+    "mbps_spread": 35.21963098069899,
+    "mbps_spread_fraction": 0.5480570801445296,
+    "handshake_ms_median": 12.101999999999999
   }
 ]
